@@ -1,0 +1,63 @@
+/*
+*
+* @author José Augusto Silva
+* @version 0.1
+*/
+
+/* ======================= Layout ======================= */
+body {
+  background: #333;
+  font-family: "Poppins", sans-serif;
+}
+
+/* -- Container-main -- */
+
+.container-main {
+  max-width: 620px;
+  min-height: auto;
+}
+
+/* -- Barra de navegação -- */
+
+.navegacao {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.btn-tema-escuro {
+  color: #fff;
+  background: #262626;
+  border-radius: 50px;
+  padding: 4px 10px;
+  transition: background 0.4s, color 0.4s;
+}
+
+.btn-tema-escuro:hover {
+  color: #262626;
+  background: #fff;
+}
+
+/* ======================= Tipografia ======================= */
+.logo-texto {
+  color: #fff;
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 0.02em;
+}
+
+.logo-texto:hover {
+  color: #fff;
+}
+
+.logo-texto:visited {
+  color: #fff;
+}
+
+.texto-tema-escuro {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+}
