@@ -40,6 +40,20 @@ body {
   background: #fff;
 }
 
+/* -- Conteúdo principal -- */
+
+#bibliografia {
+  padding: 20px 50px 20px 30px;
+}
+
+.p-conteudo {
+  margin-top: 40px;
+}
+
+.conteudo-main {
+  max-width: 500px;
+}
+
 /* ======================= Tipografia ======================= */
 .logo-texto {
   color: #fff;
@@ -60,4 +74,22 @@ body {
   font-weight: 300;
   font-size: 14px;
   line-height: 16px;
+}
+
+.titulo-principal {
+  color: #fff;
+  font-weight: 600;
+  font-size: 2.7em;
+  line-height: 110%;
+  letter-spacing: 0.02em;
+}
+
+.p-texto {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  text-align: left;
 }
