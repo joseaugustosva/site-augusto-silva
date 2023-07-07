@@ -113,7 +113,7 @@ body {
   font-size: 1.3em;
   line-height: 36px;
   letter-spacing: 0.04em;
-  padding: 0 0 0 40px;
+  padding: 0 0 0 20px;
 }
 
 #links a {
@@ -124,7 +124,7 @@ body {
   color: #166ff5;
 }
 
-.logo-texto:visited {
+.links a:visited {
   color: #262626;
 }
 
@@ -133,5 +133,3 @@ body {
   font-size: 0.9em;
   letter-spacing: 0.02em;
 }
-
-
