@@ -69,6 +69,11 @@ body {
   padding: 20px 0 0 20px;
 }
 
+.footer {
+  height: 90px;
+  padding: 40px 0 10px 30px;
+}
+
 /* ======================= Tipografia ======================= */
 .logo-texto {
   color: #fff;
@@ -132,4 +137,14 @@ body {
   font-weight: 600;
   font-size: 0.9em;
   letter-spacing: 0.02em;
+}
+
+.texto-footer {
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: 200;
+}
+
+.texto-negrito-footer {
+  font-weight: 800;
 }
