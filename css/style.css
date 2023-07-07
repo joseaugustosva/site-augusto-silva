@@ -58,7 +58,7 @@ body {
 .logo-texto {
   color: #fff;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 1.5em;
   letter-spacing: 0.02em;
 }
 
@@ -71,9 +71,8 @@ body {
 }
 
 .texto-tema-escuro {
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 16px;
+  font-weight: 400;
+  font-size: 0.8em;
 }
 
 .titulo-principal {
