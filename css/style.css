@@ -22,8 +22,6 @@ body {
 .navegacao {
   height: 100px;
   display: flex;
-  flex-direction: row;
-  justify-content: left;
   align-items: center;
 }
 
@@ -52,6 +50,23 @@ body {
 
 .conteudo-main {
   max-width: 500px;
+}
+
+/* Links */
+
+.btn-links {
+  display: flex;
+  color: #262626;
+  background: #f5f5f5;
+  border-radius: 15px;
+  padding-left: 30px;
+  width: 450px;
+  height: 80px;
+  align-items: center;
+}
+
+.alinhamento-btn {
+  padding: 20px 0 0 20px;
 }
 
 /* ======================= Tipografia ======================= */
@@ -91,3 +106,32 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
 }
+
+#links h3 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.3em;
+  line-height: 36px;
+  letter-spacing: 0.04em;
+  padding: 0 0 0 40px;
+}
+
+#links a {
+  text-decoration: none;
+}
+
+#links a:hover {
+  color: #166ff5;
+}
+
+.logo-texto:visited {
+  color: #262626;
+}
+
+.btn-texto {
+  font-weight: 600;
+  font-size: 0.9em;
+  letter-spacing: 0.02em;
+}
+
+
