@@ -15,10 +15,14 @@ body {
 .container {
   max-width: 600px;
   margin: 10px auto;
-  padding: 10px;
+  padding: 5px;
 }
 
 /* -- Barra de navegação -- */
+
+.navbar {
+  padding: 8px 0 8px 0;
+}
 
 .navegacao {
   height: 100px;
@@ -64,15 +68,28 @@ body {
 /* -- Conteúdo principal -- */
 
 #bibliografia {
-  padding: 20px 50px 20px 30px;
+  width: 100%;
+  padding: 0 35px 0 5px;
+  margin-bottom: 30px;
 }
 
-.p-conteudo {
-  margin-top: 40px;
+.titulo-principal {
+  color: #fff;
+  font-weight: 600;
+  font-size: 2.4em;
+  line-height: 110%;
+  letter-spacing: 0.03em;
+  margin-bottom: 40px;
 }
 
-.conteudo-main {
-  max-width: 500px;
+.paragrafo {
+  color: #fff;
+  font-weight: 300;
+  font-size: 0.95em;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  text-align: left;
+  margin-bottom: 18px;
 }
 
 /* Links */
@@ -98,23 +115,6 @@ body {
 }
 
 /* ======================= Tipografia ======================= */
-
-.titulo-principal {
-  color: #fff;
-  font-weight: 600;
-  font-size: 2.4em;
-  line-height: 110%;
-  letter-spacing: 0.03em;
-}
-
-.p-texto {
-  color: #fff;
-  font-weight: 300;
-  font-size: 0.9em;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  text-align: left;
-}
 
 #links h3 {
   color: #fff;
