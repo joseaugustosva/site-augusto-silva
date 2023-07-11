@@ -4,13 +4,12 @@
 * @version 0.1
 */
 
-/* ======================= Layout ======================= */
 body {
   background: #333;
   font-family: "Poppins", sans-serif;
 }
 
-/* -- Container-main -- */
+/* -- container-main -- */
 
 .container {
   max-width: 600px;
@@ -18,7 +17,7 @@ body {
   padding: 5px;
 }
 
-/* -- Barra de navegação -- */
+/* -- barra de navegação -- */
 
 .navbar {
   padding: 8px 0 8px 0;
@@ -65,7 +64,7 @@ body {
   background: #fff;
 }
 
-/* -- Conteúdo principal -- */
+/* -- conteúdo principal -- */
 
 #bibliografia {
   width: 100%;
@@ -92,7 +91,7 @@ body {
   margin-bottom: 18px;
 }
 
-/* Links úteis */
+/* meus links */
 
 #links {
   width: 100%;
@@ -139,19 +138,24 @@ body {
   color: #262626;
 }
 
-.footer {
-  height: 90px;
-  padding: 40px 0 10px 30px;
-}
+/* footer */
 
-/* ======================= Tipografia ======================= */
+.footer {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
 
 .texto-footer {
   color: #fff;
-  font-size: 0.8em;
+  font-size: 0.7em;
   font-weight: 200;
+  padding-left: 5px;
+  margin: 0;
 }
 
-.texto-negrito-footer {
-  font-weight: 800;
+.negrito-footer {
+  font-weight: 600;
 }
