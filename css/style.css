@@ -14,7 +14,7 @@ body {
 .container {
   max-width: 600px;
   margin: 10px auto;
-  padding: 5px;
+  padding: 0 15px 0 15px;
 }
 
 /* -- barra de navegação -- */
@@ -68,7 +68,7 @@ body {
 
 #bibliografia {
   width: 100%;
-  padding: 0 35px 0 5px;
+  padding: 0 25px 0 5px;
   margin-bottom: 30px;
 }
 
@@ -110,7 +110,7 @@ body {
 }
 
 .botao-link {
-  width: 400px;
+  max-width: 530px;
   height: 80px;
   background: #f5f5f5;
   border-radius: 15px;
