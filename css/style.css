@@ -147,6 +147,10 @@ body {
   text-decoration: none;
 }
 
+#links a:link {
+  color: var(--text-white);
+}
+
 #links a:hover {
   color: var(--text-white);
 }
